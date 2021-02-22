@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bc9eab2-dc78-4eb0-a2a0-3ebc57266f59" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PruebaTecnica_DavidBerbeo" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ojR4alXIms0uAhqhzYVYlnXSQT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features/autenticacion" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: Autenticación a la plataforma">
+    <configuration name="Feature: autenticacion" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/autenticacion/autenticacion.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors starter.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PruebaTecnica_DavidBerbeo.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: autenticacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Autenticación a la plataforma (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/creacionCategoria/navegacion.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors starter.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PruebaTecnica_DavidBerbeo.test" />
+      <option name="NAME_FILTER" value="^Autenticación a la plataforma$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Autenticación a la plataforma$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Autenticación a la plataforma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Autenticación a la plataforma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/autenticacion/autenticacion.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors starter.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PruebaTecnica_DavidBerbeo.test" />
+      <option name="NAME_FILTER" value="^Autenticación a la plataforma$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Autenticación a la plataforma$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Autenticación a la plataforma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Navegación la Pantalla BLOG CATEGORIES" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/creacionCategoria/navegacion.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors starter.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PruebaTecnica_DavidBerbeo.test" />
+      <option name="NAME_FILTER" value="^Navegación la Pantalla BLOG CATEGORIES$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Navegación la Pantalla BLOG CATEGORIES$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Navegación la Pantalla BLOG CATEGORIES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PruebaTecnica_DavidBerbeo [clean test]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-Pwebdriver.driver=chrome -Denvironment=dev " />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Feature: autenticacion" />
+      <item itemvalue="Cucumber java.Scenario: Autenticación a la plataforma" />
+      <item itemvalue="Cucumber java.Scenario: Autenticación a la plataforma (1)" />
+      <item itemvalue="Cucumber java.Scenario: Navegación la Pantalla BLOG CATEGORIES" />
+      <item itemvalue="Gradle.PruebaTecnica_DavidBerbeo [clean test]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: Autenticación a la plataforma" />
+        <item itemvalue="Cucumber java.Feature: autenticacion" />
+        <item itemvalue="Cucumber java.Scenario: Navegación la Pantalla BLOG CATEGORIES" />
+        <item itemvalue="Cucumber java.Scenario: Autenticación a la plataforma (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bc9eab2-dc78-4eb0-a2a0-3ebc57266f59" name="Default Changelist" comment="" />
+      <created>1613797823188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613797823188</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2608" y="172" key="#Inspections" timestamp="1613841302931">
+      <screen x="2048" y="25" width="1920" height="970" />
+    </state>
+    <state x="2608" y="172" key="#Inspections/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613841302931" />
+    <state x="2608" y="172" key="#Java" timestamp="1613829748693">
+      <screen x="2048" y="25" width="1920" height="970" />
+    </state>
+    <state x="2608" y="172" key="#Java/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613829748693" />
+    <state x="2772" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613832584225">
+      <screen x="2048" y="25" width="1920" height="970" />
+    </state>
+    <state x="480" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613797980218" />
+    <state x="2772" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613832584225" />
+    <state x="693" y="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613949722944">
+      <screen x="0" y="25" width="2048" height="1127" />
+    </state>
+    <state x="2698" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613826292716" />
+    <state x="693" y="382" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613949722944" />
+    <state x="2698" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613834160531" />
+    <state x="2605" y="439" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1613846615637">
+      <screen x="2048" y="25" width="1920" height="970" />
+    </state>
+    <state x="2605" y="439" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613846615637" />
+    <state width="2006" height="281" key="GridCell.Tab.0.bottom" timestamp="1613963537318">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state width="2006" height="281" key="GridCell.Tab.0.bottom/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963537318" />
+    <state width="1878" height="390" key="GridCell.Tab.0.bottom/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613867673819" />
+    <state width="2006" height="309" key="GridCell.Tab.0.bottom/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613959905222" />
+    <state width="1878" height="259" key="GridCell.Tab.0.bottom/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613851461246" />
+    <state width="2006" height="281" key="GridCell.Tab.0.center" timestamp="1613963537318">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state width="2006" height="281" key="GridCell.Tab.0.center/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963537318" />
+    <state width="1878" height="390" key="GridCell.Tab.0.center/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613867673818" />
+    <state width="2006" height="309" key="GridCell.Tab.0.center/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613959905221" />
+    <state width="1878" height="259" key="GridCell.Tab.0.center/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613851461245" />
+    <state width="2006" height="281" key="GridCell.Tab.0.left" timestamp="1613963537317">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state width="2006" height="281" key="GridCell.Tab.0.left/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963537317" />
+    <state width="1878" height="390" key="GridCell.Tab.0.left/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613867673818" />
+    <state width="2006" height="309" key="GridCell.Tab.0.left/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613959905221" />
+    <state width="1878" height="259" key="GridCell.Tab.0.left/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613851461244" />
+    <state width="2006" height="281" key="GridCell.Tab.0.right" timestamp="1613963537318">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state width="2006" height="281" key="GridCell.Tab.0.right/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963537318" />
+    <state width="1878" height="390" key="GridCell.Tab.0.right/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613867673819" />
+    <state width="2006" height="309" key="GridCell.Tab.0.right/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613959905221" />
+    <state width="1878" height="259" key="GridCell.Tab.0.right/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613851461245" />
+    <state width="2006" height="383" key="GridCell.Tab.1.bottom" timestamp="1613963537314">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state width="2006" height="383" key="GridCell.Tab.1.bottom/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963537314" />
+    <state width="1878" height="390" key="GridCell.Tab.1.bottom/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613867673821" />
+    <state width="2006" height="421" key="GridCell.Tab.1.bottom/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613959905216" />
+    <state width="1878" height="353" key="GridCell.Tab.1.bottom/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613851461144" />
+    <state width="2006" height="383" key="GridCell.Tab.1.center" timestamp="1613963537314">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state width="2006" height="383" key="GridCell.Tab.1.center/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963537314" />
+    <state width="1878" height="390" key="GridCell.Tab.1.center/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613867673820" />
+    <state width="2006" height="421" key="GridCell.Tab.1.center/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613959905215" />
+    <state width="1878" height="353" key="GridCell.Tab.1.center/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613851461143" />
+    <state width="2006" height="383" key="GridCell.Tab.1.left" timestamp="1613963537313">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state width="2006" height="383" key="GridCell.Tab.1.left/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963537313" />
+    <state width="1878" height="390" key="GridCell.Tab.1.left/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613867673820" />
+    <state width="2006" height="421" key="GridCell.Tab.1.left/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613959905215" />
+    <state width="1878" height="353" key="GridCell.Tab.1.left/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613851461143" />
+    <state width="2006" height="383" key="GridCell.Tab.1.right" timestamp="1613963537314">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state width="2006" height="383" key="GridCell.Tab.1.right/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963537314" />
+    <state width="1878" height="390" key="GridCell.Tab.1.right/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613867673821" />
+    <state width="2006" height="421" key="GridCell.Tab.1.right/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613959905215" />
+    <state width="1878" height="353" key="GridCell.Tab.1.right/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613851461143" />
+    <state x="2517" y="146" key="SettingsEditor" timestamp="1613834467115">
+      <screen x="2048" y="25" width="1920" height="970" />
+    </state>
+    <state x="2517" y="146" key="SettingsEditor/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613834467115" />
+    <state x="701" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1613963618591">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state x="701" y="387" key="com.intellij.ide.util.TipDialog/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963618591" />
+    <state x="701" y="417" key="com.intellij.ide.util.TipDialog/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613950872699" />
+    <state x="3203" y="156" key="refactoring.ChangeSignatureDialog" timestamp="1613938870536">
+      <screen x="2048" y="25" width="1920" height="1055" />
+    </state>
+    <state x="3203" y="156" key="refactoring.ChangeSignatureDialog/0.25.2048.1042/2048.25.1920.1055@2048.25.1920.1055" timestamp="1613938870536" />
+    <state x="2673" y="233" width="670" height="675" key="run.anything.popup" timestamp="1613836374576">
+      <screen x="2048" y="25" width="1920" height="970" />
+    </state>
+    <state x="2673" y="233" width="670" height="675" key="run.anything.popup/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613836374576" />
+    <state x="667" y="253" width="715" height="727" key="search.everywhere.popup" timestamp="1613963047799">
+      <screen x="0" y="25" width="2048" height="1042" />
+    </state>
+    <state x="667" y="253" width="715" height="727" key="search.everywhere.popup/0.25.2048.1042/2048.25.1920.1055@0.25.2048.1042" timestamp="1613963047799" />
+    <state x="667" y="272" width="715" height="786" key="search.everywhere.popup/0.25.2048.1127/2048.25.1920.970@0.25.2048.1127" timestamp="1613946421944" />
+    <state x="2673" y="238" width="670" height="676" key="search.everywhere.popup/0.25.2048.1127/2048.25.1920.970@2048.25.1920.970" timestamp="1613836530963" />
+  </component>
+</project>

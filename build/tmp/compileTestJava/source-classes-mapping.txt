@@ -1,0 +1,22 @@
+starter/search/SearchForm.java
+ starter.search.SearchForm
+starter/search/SearchResult.java
+ starter.search.SearchResult
+starter/CucumberTestSuite.java
+ starter.CucumberTestSuite
+starter/login/DoLogin.java
+ starter.login.DoLogin
+starter/stepdefinitions/AutenticacionStepDefinition.java
+ starter.stepdefinitions.AutenticacionStepDefinition
+starter/navigation/PhpTravels.java
+ starter.navigation.PhpTravels
+starter/search/SearchResultList.java
+ starter.search.SearchResultList
+starter/search/SearchFor.java
+ starter.search.SearchFor
+starter/login/LocatorsForm.java
+ starter.login.LocatorsForm
+starter/navigation/NavigateTo.java
+ starter.navigation.NavigateTo
+starter/matchers/StringContainsIgnoringCase.java
+ starter.matchers.StringContainsIgnoringCase

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="autenticacion" skipped="0" tests="1" time="16.75" timestamp="2021-02-22 01:08:58"><testcase name="Autenticación a la plataforma"><error message="invalid selector: Unable to locate an element with the xpath expression //div[@id='content']/div[2]/div[2]/div/button] because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@id='content']/div[2]/div[2]/div/button]' is not a valid XPath expression.&#10;  (Session info: chrome=88.0.4324.182)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: '192.168.1.104', ip: '192.168.1.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.1', java.version: '15.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/gw/w1t628q5063...}, goog:chromeOptions: {debuggerAddress: localhost:54661}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c426c89dfae58b1f8127c445bafe7e51&#10;*** Element info: {Using=xpath, value=//div[@id='content']/div[2]/div[2]/div/button]}" type="org.openqa.selenium.InvalidSelectorException">invalid selector: Unable to locate an element with the xpath expression //div[@id='content']/div[2]/div[2]/div/button] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@id='content']/div[2]/div[2]/div/button]' is not a valid XPath expression.
+  (Session info: chrome=88.0.4324.182)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.104', ip: '192.168.1.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/gw/w1t628q5063...}, goog:chromeOptions: {debuggerAddress: localhost:54661}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c426c89dfae58b1f8127c445bafe7e51
+*** Element info: {Using=xpath, value=//div[@id='content']/div[2]/div[2]/div/button]}</error><system-err>invalid selector: Unable to locate an element with the xpath expression //div[@id='content']/div[2]/div[2]/div/button] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@id='content']/div[2]/div[2]/div/button]' is not a valid XPath expression.
+  (Session info: chrome=88.0.4324.182)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.104', ip: '192.168.1.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/gw/w1t628q5063...}, goog:chromeOptions: {debuggerAddress: localhost:54661}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c426c89dfae58b1f8127c445bafe7e51
+*** Element info: {Using=xpath, value=//div[@id='content']/div[2]/div[2]/div/button]}
+starter.login.DoLogin.performAs(DoLogin.java:57)
+starter.stepdefinitions.AutenticacionStepDefinition.el_ingrese_sus_credenciales(AutenticacionStepDefinition.java:37)
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+cucumber.runner.TestStep.executeStep(TestStep.java:65)
+cucumber.runner.TestStep.run(TestStep.java:50)
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+cucumber.runner.TestCase.run(TestCase.java:46)
+cucumber.runner.Runner.runPickle(Runner.java:50)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:208)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:66)
+</system-err></testcase></testsuite>
