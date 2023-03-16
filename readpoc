@@ -1,0 +1,18 @@
+Asegúrate de que tu automatización esté configurada para registrar los resultados en Serenity BDD. Puedes hacerlo agregando la siguiente línea al archivo serenity.conf:
+
+serenity.project.name = My Test Project
+Agrega la siguiente línea al archivo azure-pipelines.yml para crear el plan de prueba en Azure DevOps durante la canalización:
+
+- task: PublishTestResults@2
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**/TEST-*.xml'
+    searchFolder: '$(System.DefaultWorkingDirectory)/target/site/serenity'
+    testRunTitle: 'My Test Plan'
+    testPlan: 'My Test Plan'
+    testSuite: 'My Test Suite'
+    testConfiguration: 'Default'
+    failOnFailedTests: false
+Esta tarea publicará los resultados de las pruebas en el plan de prueba que creamos anteriormente. 
+Asegúrate de reemplazar "My Test Plan" con el nombre de tu plan de prueba,
+"My Test Suite" con el nombre de la suite de pruebas que deseas utilizar y "Default" con el nombre de la configuración de prueba que deseas utilizar.
