@@ -1,72 +1,37 @@
-Asegúrate de que tu automatización esté configurada para registrar los resultados en Serenity BDD. Puedes hacerlo agregando la siguiente línea al archivo serenity.conf:
+Creación de un proyecto en Azure DevOps
+Given que tengo una cuenta en Azure DevOps
+When creo un nuevo proyecto con el nombre "Proyecto de prueba"
+Then debo poder acceder al proyecto "Proyecto de prueba" en Azure DevOps
 
-serenity.project.name = My Test Project
-Agrega la siguiente línea al archivo azure-pipelines.yml para crear el plan de prueba en Azure DevOps durante la canalización:
+Creación de un plan de prueba en Azure DevOps
+Given que tengo acceso al proyecto "Proyecto de prueba" en Azure DevOps
+When creo un nuevo plan de prueba con el nombre "Plan de prueba de Serenity"
+Then debo poder ver el plan de prueba "Plan de prueba de Serenity" en Azure DevOps
 
-- task: PublishTestResults@2
-  inputs:
-    testRunner: VSTest
-    testResultsFiles: '**/TEST-*.xml'
-    searchFolder: '$(System.DefaultWorkingDirectory)/target/site/serenity'
-    testRunTitle: 'My Test Plan'
-    testPlan: 'My Test Plan'
-    testSuite: 'My Test Suite'
-    testConfiguration: 'Default'
-    failOnFailedTests: false
-Esta tarea publicará los resultados de las pruebas en el plan de prueba que creamos anteriormente. 
-Asegúrate de reemplazar "My Test Plan" con el nombre de tu plan de prueba,
-"My Test Suite" con el nombre de la suite de pruebas que deseas utilizar y "Default" con el nombre de la configuración de prueba que deseas utilizar.
+Creación de un caso de prueba en Azure DevOps
+Given que tengo acceso al plan de prueba "Plan de prueba de Serenity" en Azure DevOps
+When creo un nuevo caso de prueba con el nombre "Caso de prueba de Serenity"
+Then debo poder ver el caso de prueba "Caso de prueba de Serenity" en el plan de prueba "Plan de prueba de Serenity" en Azure DevOps
 
+Configuración de la automatización en Serenity BDD
+Given que tengo una automatización de prueba en Serenity BDD
+When configuro la automatización para registrar los resultados en Serenity BDD con el nombre de proyecto "Proyecto de prueba"
+Then debo poder ejecutar la automatización y ver los resultados registrados en Serenity BDD
 
+Conexión de la automatización con Azure DevOps
+Given que tengo acceso al plan de prueba "Plan de prueba de Serenity" en Azure DevOps
+And tengo configurada la automatización para registrar los resultados en Serenity BDD con el nombre de proyecto "Proyecto de prueba"
+When agrego la tarea "PublishTestResults" en el archivo azure-pipelines.yml para publicar los resultados de la prueba en el plan de prueba "Plan de prueba de Serenity" en Azure DevOps
+And ejecuto la canalización
+Then debo poder ver los resultados de la prueba registrados en el caso de prueba "Caso de prueba de Serenity" en el plan de prueba "Plan de prueba de Serenity" en Azure DevOps
 
-
-¡Por supuesto! Aquí te muestro cómo se podría reescribir la especificación en formato BDD utilizando los verbos Given-When-Then:
-
-Funcionalidad: Crear un tablero de Scrum con estimados para implementar la solución de automatización de Serenity Screenplay en Azure DevOps.
-
-Contexto: Como miembro del equipo de desarrollo de [nombre del proyecto], necesito un tablero de Scrum con estimados para planificar y realizar el seguimiento de las tareas necesarias para implementar la solución de automatización de Serenity Screenplay en Azure DevOps.
-
-Especificación:
-
-Given que estoy en la página de inicio de Azure DevOps
-When hago clic en "Nuevo equipo"
-Then se me muestra una lista de plantillas de proceso
-And selecciono "Scrum"
-And sigo las instrucciones para crear un nuevo equipo de Scrum
-
-Given que estoy en la página de inicio de Azure DevOps
-And he creado un nuevo equipo de Scrum
-When hago clic en la pestaña "Tablero"
-Then se me muestra una lista de tableros disponibles
-And selecciono "Nuevo Tablero"
-And selecciono el equipo de Scrum previamente creado
-And selecciono la plantilla "Scrum"
-And hago clic en "Crear"
-
-Given que estoy en el nuevo tablero de Scrum
-When configuro las columnas del tablero
-Then agrego columnas personalizadas que reflejen nuestro flujo de trabajo
-And aseguro que incluyen las columnas "Por hacer", "En progreso", "Pruebas" y "Hecho"
-
-Given que estoy en el nuevo tablero de Scrum
-And he agregado las columnas personalizadas al tablero
-When agrego las tarjetas de trabajo al tablero
-Then agrego tarjetas de trabajo que representen las tareas necesarias para implementar la solución de automatización de Serenity Screenplay en Azure DevOps
-
-Given que estoy en el nuevo tablero de Scrum
-And he agregado las tarjetas de trabajo al tablero
-When estimo la duración de las tareas
-Then utilizo puntos de historia o tiempo para estimar la duración de cada tarea
-
-Given que estoy en el nuevo tablero de Scrum
-And he estimado la duración de las tareas
-When asigno las tareas a los miembros del equipo
-Then aseguro que cada miembro del equipo sepa qué tareas se le han asignado
-And cuánto tiempo se espera que las tareas les lleven
-
-Given que estoy en el nuevo tablero de Scrum
-And he asignado las tareas a los miembros del equipo
-When realizo el seguimiento del progreso durante el sprint
-Then actualizo el estado de las tarjetas de trabajo en el tablero de Scrum a medida que se completan
-
-Resultado esperado: Un nuevo tablero de Scrum con estimados que refleje nuestro flujo de trabajo y las tareas necesarias para implementar la solución de automatización de Serenity Screenplay en Azure DevOps. Este tablero nos permitirá planificar y realizar el seguimiento de nuestro progreso durante el sprint y asegurarnos de que estamos en camino de completar todas las tareas necesarias antes del final del sprint.
+Creación de un proyecto en Azure DevOps
+Documentación oficial de Microsoft: https://docs.microsoft.com/es-es/azure/devops/organizations/projects/create-project?view=azure-devops&tabs=preview-page
+Creación de un plan de prueba en Azure DevOps
+Documentación oficial de Microsoft: https://docs.microsoft.com/es-es/azure/devops/test/plans/create-manage?view=azure-devops
+Creación de un caso de prueba en Azure DevOps
+Documentación oficial de Microsoft: https://docs.microsoft.com/es-es/azure/devops/test/track-test-status?view=azure-devops
+Configuración de la automatización en Serenity BDD
+Documentación oficial de Serenity BDD: https://serenity-bdd.github.io/theserenitybook/latest/serenity-web-testing-tutorial-screenplay-java-maven.html
+Conexión de la automatización con Azure DevOps
+Documentación oficial de Microsoft: https://docs.microsoft.com/es-es/azure/devops/pipelines/tasks/test/publish-test-results?view=azure-devops&tabs=yaml
