@@ -35,3 +35,30 @@ Configuración de la automatización en Serenity BDD
 Documentación oficial de Serenity BDD: https://serenity-bdd.github.io/theserenitybook/latest/serenity-web-testing-tutorial-screenplay-java-maven.html
 Conexión de la automatización con Azure DevOps
 Documentación oficial de Microsoft: https://docs.microsoft.com/es-es/azure/devops/pipelines/tasks/test/publish-test-results?view=azure-devops&tabs=yaml
+
+
+/////////
+Configurar la automatización para que se ejecute automáticamente en Azure DevOps
+Given que tengo una automatización de prueba en Serenity BDD
+When configuro la automatización para que se ejecute automáticamente en Azure DevOps cada vez que se realice una confirmación (commit) en la rama principal del repositorio de código fuente.
+Then debo poder ver que la automatización se ejecuta automáticamente cada vez que se realiza una confirmación en la rama principal del repositorio.
+Ejecutar la automatización de prueba automáticamente en Azure DevOps
+Given que la automatización se ejecuta automáticamente en Azure DevOps cada vez que se realiza una confirmación en la rama principal del repositorio
+When se realiza una confirmación (commit) en la rama principal del repositorio
+Then debo poder ver que la automatización de prueba se ejecuta automáticamente en Azure DevOps.
+Generar un informe de resultados de la automatización de prueba en Serenity BDD
+Given que la automatización de prueba se ejecuta automáticamente en Azure DevOps
+When la automatización de prueba se completa exitosamente o con errores.
+Then debo poder ver el informe de resultados de la automatización de prueba generado en Serenity BDD.
+Registrar los resultados de la automatización en Azure DevOps
+Given que la automatización de prueba se ejecuta automáticamente en Azure DevOps
+When la automatización de prueba se completa exitosamente o con errores
+Then debo poder registrar los resultados de la prueba en Azure DevOps, utilizando la tarea "PublishTestResults" en el archivo azure-pipelines.yml.
+Generar un bug en Azure DevOps cuando la automatización de prueba falla
+Given que la automatización de prueba se ejecuta automáticamente en Azure DevOps
+When la automatización de prueba falla
+Then debo poder generar un bug en Azure DevOps para el caso de prueba correspondiente utilizando la tarea "Report a Bug" en el archivo azure-pipelines.yml.
+Marcar los casos de prueba como exitosos en Azure DevOps cuando la automatización de prueba pasa exitosamente
+Given que la automatización de prueba se ejecuta automáticamente en Azure DevOps
+When la automatización de prueba pasa exitosamente
+Then debo poder marcar los casos de prueba correspondientes como exitosos en Azure DevOps utilizando la tarea "Mark Test Results" en el archivo azure-pipelines.yml.
