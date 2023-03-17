@@ -62,3 +62,19 @@ Marcar los casos de prueba como exitosos en Azure DevOps cuando la automatizaci�
 Given que la automatización de prueba se ejecuta automáticamente en Azure DevOps
 When la automatización de prueba pasa exitosamente
 Then debo poder marcar los casos de prueba correspondientes como exitosos en Azure DevOps utilizando la tarea "Mark Test Results" en el archivo azure-pipelines.yml.
+
+
+links
+
+Configurar la automatización para que se ejecute automáticamente en Azure DevOps:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=java%2Cyaml%2Cbrowser#create-a-pipeline-from-a-template
+Ejecutar la automatización de prueba automáticamente en Azure DevOps:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=java%2Cyaml%2Cbrowser#create-a-pipeline-from-a-template
+Generar un informe de resultados de la automatización de prueba en Serenity BDD:
+https://serenity-bdd.github.io/theserenitybook/latest/serenity-reports.html
+Registrar los resultados de la automatización en Azure DevOps:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/test/review-test-results?view=azure-devops
+Generar un bug en Azure DevOps cuando la automatización de prueba falla:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/report-bugs-task?view=azure-devops
+Marcar los casos de prueba como exitosos en Azure DevOps cuando la automatización de prueba pasa exitosamente:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/test/publish-test-results?view=azure-devops
