@@ -16,3 +16,57 @@ Agrega la siguiente línea al archivo azure-pipelines.yml para crear el plan de 
 Esta tarea publicará los resultados de las pruebas en el plan de prueba que creamos anteriormente. 
 Asegúrate de reemplazar "My Test Plan" con el nombre de tu plan de prueba,
 "My Test Suite" con el nombre de la suite de pruebas que deseas utilizar y "Default" con el nombre de la configuración de prueba que deseas utilizar.
+
+
+
+
+¡Por supuesto! Aquí te muestro cómo se podría reescribir la especificación en formato BDD utilizando los verbos Given-When-Then:
+
+Funcionalidad: Crear un tablero de Scrum con estimados para implementar la solución de automatización de Serenity Screenplay en Azure DevOps.
+
+Contexto: Como miembro del equipo de desarrollo de [nombre del proyecto], necesito un tablero de Scrum con estimados para planificar y realizar el seguimiento de las tareas necesarias para implementar la solución de automatización de Serenity Screenplay en Azure DevOps.
+
+Especificación:
+
+Given que estoy en la página de inicio de Azure DevOps
+When hago clic en "Nuevo equipo"
+Then se me muestra una lista de plantillas de proceso
+And selecciono "Scrum"
+And sigo las instrucciones para crear un nuevo equipo de Scrum
+
+Given que estoy en la página de inicio de Azure DevOps
+And he creado un nuevo equipo de Scrum
+When hago clic en la pestaña "Tablero"
+Then se me muestra una lista de tableros disponibles
+And selecciono "Nuevo Tablero"
+And selecciono el equipo de Scrum previamente creado
+And selecciono la plantilla "Scrum"
+And hago clic en "Crear"
+
+Given que estoy en el nuevo tablero de Scrum
+When configuro las columnas del tablero
+Then agrego columnas personalizadas que reflejen nuestro flujo de trabajo
+And aseguro que incluyen las columnas "Por hacer", "En progreso", "Pruebas" y "Hecho"
+
+Given que estoy en el nuevo tablero de Scrum
+And he agregado las columnas personalizadas al tablero
+When agrego las tarjetas de trabajo al tablero
+Then agrego tarjetas de trabajo que representen las tareas necesarias para implementar la solución de automatización de Serenity Screenplay en Azure DevOps
+
+Given que estoy en el nuevo tablero de Scrum
+And he agregado las tarjetas de trabajo al tablero
+When estimo la duración de las tareas
+Then utilizo puntos de historia o tiempo para estimar la duración de cada tarea
+
+Given que estoy en el nuevo tablero de Scrum
+And he estimado la duración de las tareas
+When asigno las tareas a los miembros del equipo
+Then aseguro que cada miembro del equipo sepa qué tareas se le han asignado
+And cuánto tiempo se espera que las tareas les lleven
+
+Given que estoy en el nuevo tablero de Scrum
+And he asignado las tareas a los miembros del equipo
+When realizo el seguimiento del progreso durante el sprint
+Then actualizo el estado de las tarjetas de trabajo en el tablero de Scrum a medida que se completan
+
+Resultado esperado: Un nuevo tablero de Scrum con estimados que refleje nuestro flujo de trabajo y las tareas necesarias para implementar la solución de automatización de Serenity Screenplay en Azure DevOps. Este tablero nos permitirá planificar y realizar el seguimiento de nuestro progreso durante el sprint y asegurarnos de que estamos en camino de completar todas las tareas necesarias antes del final del sprint.
